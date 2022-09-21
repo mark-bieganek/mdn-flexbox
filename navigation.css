@@ -29,3 +29,27 @@ nav.second ul {
 nav.second ul li {
   flex: 1;
 }
+
+/* Example 3: Just like example 2, but with a gap */
+nav.third ul {
+  justify-content: space-around;
+  gap: 1em;
+}
+
+nav.third ul li {
+  flex: 1;
+}
+
+/* Example 4: Just like example 3, but third item is longer */
+nav.fourth ul {
+  justify-content: space-around;
+  gap: 1em;
+}
+
+nav.fourth ul li {
+  flex: 2 2 auto;
+}
+
+nav.fourth ul li.third {
+  flex: 1 1 auto;
+}

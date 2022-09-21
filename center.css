@@ -1,0 +1,16 @@
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  margin: 12px;
+  border: 1px dotted lightslategray;
+}
+
+.box div {
+  width: 100px;
+  height: 100px;
+  background-color: lightskyblue;
+  border: 2px solid lightslategray;
+  border-radius: 2px;
+}

@@ -1,0 +1,31 @@
+/* default properties for navigation */
+nav ul {
+  display: flex;
+  border: 2px solid lightgray;
+  padding: 0;
+}
+
+nav ul li {
+  border: 2px solid lightseagreen;
+  border-radius: 2px;
+  background-color: lightblue;
+  padding: 0.5em;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  list-style-type: none;
+  text-align: center;
+}
+
+/* Example 1: Flex navigation with equal space between items */
+nav.first ul {
+  justify-content: space-between;
+}
+
+/* Example 2: Flex navigation with equal width items filling space */
+nav.second ul {
+  justify-content: space-around;
+}
+
+nav.second ul li {
+  flex: 1;
+}
